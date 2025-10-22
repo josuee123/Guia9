@@ -49,11 +49,14 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-
-    gem "rspec-rails", "~> 3.7"
-    gem 'capybara'
-    gem 'database_cleaner'
-
+  
+  # ANTES ERA: gem "rspec-rails", "~> 3.7" -> ¡Eliminamos la restricción!
+  gem "rspec-rails"
+  
+  # ANTES ERA: gem 'capybara' -> ¡Eliminada para evitar duplicado!
+  
+  # ANTES ERA: gem 'database_cleaner' -> Eliminamos la restricción
+  gem 'database_cleaner' 
 end
 
 group :development do
@@ -62,7 +65,9 @@ group :development do
 end
 
 group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
+  # Aquí mantenemos Capybara, sin restricción de versión
+  gem "capybara" 
+  
+  # ANTES ERA: gem "selenium-webdriver" -> Eliminamos la restricción
+  gem "selenium-webdriver" 
 end
