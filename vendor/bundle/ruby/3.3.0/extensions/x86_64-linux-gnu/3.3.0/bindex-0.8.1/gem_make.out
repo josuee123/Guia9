@@ -1,0 +1,18 @@
+current directory: /home/yosser/Documentos/Guia8/App_RoR-T/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby3.3 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/yosser/Documentos/Guia8/App_RoR-T/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251028-5713-dmm8zi sitelibdir\=./.gem.20251028-5713-dmm8zi clean
+
+current directory: /home/yosser/Documentos/Guia8/App_RoR-T/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251028-5713-dmm8zi sitelibdir\=./.gem.20251028-5713-dmm8zi
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/yosser/Documentos/Guia8/App_RoR-T/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251028-5713-dmm8zi sitelibdir\=./.gem.20251028-5713-dmm8zi install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20251028-5713-dmm8zi/skiptrace/internal
+
+current directory: /home/yosser/Documentos/Guia8/App_RoR-T/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20251028-5713-dmm8zi sitelibdir\=./.gem.20251028-5713-dmm8zi clean
